@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dante Macchi Bocco | Portfolio & Proyectos</title>
+ 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+        <span class="brand-badge">DMB</span>
+        <span>Dante Macchi Bocco</span>
+      </a>
+     
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="menuNavegacion">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-nav-contact" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / PORTADA CON GRILLA TÉCNICA -->
+  <header class="hero-blueprint">
+    <div class="container py-5">
+      <div class="row align-items-center gy-5">
+        <div class="col-12 col-lg-7 text-center text-lg-start">
+          <div class="status-pill mb-3">
+            <span class="status-dot"></span> Próximo estudiante de Ingeniería Civil · ITBA
+          </div>
+          <h1 class="display-3 fw-bold mb-3 hero-title">
+            Dante Macchi Bocco
+          </h1>
+         
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="#portfolio" class="btn btn-accent btn-lg px-4 fw-semibold">
+              Explorar Proyectos <i class="bi bi-arrow-down-right ms-1"></i>
+            </a>
+            <a href="#contacto" class="btn btn-outline-dark btn-lg px-4 fw-semibold">
+              Hablemos
+            </a>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5 text-center">
+          <div class="profile-frame mx-auto">
+            <img src="fotosigma.jpg" alt="Dante Macchi Bocco" class="profile-img">
+            <div class="frame-tag frame-tag-top">
+              <i class="bi bi-compass"></i> ITBA '27
+            </div>
+            <div class="frame-tag frame-tag-bottom">
+              <i class="bi bi-code-slash"></i> Dev & Lógica
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PORTFOLIO / PROYECTOS -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">01 // DESARROLLO WEB</span>
+        <h2 class="fw-bold">Proyectos Seleccionados</h2>
+        <div class="custom-hr"></div>
+      </div>
+     
+      <div class="row g-4 mt-2 justify-content-center">
+       
+        <!-- Proyecto 1: Adivina el color -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 portfolio-card">
+            <a href="adivina el color/index.html" target="_blank" class="img-wrapper">
+              <img src="images.png" class="portfolio-img card-img-top" alt="Adivina el color">
+              <span class="card-overlay-btn"><i class="bi bi-box-arrow-up-right"></i> Ver proyecto</span>
+            </a>
+            <div class="card-body d-flex flex-column">
+              <div class="tech-tags mb-2">
+                <span class="badge-tech">JavaScript</span>
+                <span class="badge-tech">DOM</span>
+              </div>
+              <h5 class="fw-bold">The Great Guessing Game</h5>
+              <p class="text-muted card-text small mb-0">Juego interactivo para adivinar colores en formato RGB con niveles de dificultad Easy y Hard.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2: Lista de Súper -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 portfolio-card">
+            <a href="parte2-listasuper/index.html" target="_blank" class="img-wrapper">
+              <img src="listasuper.png" class="portfolio-img card-img-top" alt="Lista super">
+              <span class="card-overlay-btn"><i class="bi bi-box-arrow-up-right"></i> Ver proyecto</span>
+            </a>
+            <div class="card-body d-flex flex-column">
+              <div class="tech-tags mb-2">
+                <span class="badge-tech">JS Dinámico</span>
+                <span class="badge-tech">UI/UX</span>
+              </div>
+              <h5 class="fw-bold">Lista de Supermercado</h5>
+              <p class="text-muted card-text small mb-0">Aplicación práctica para agregar, organizar y gestionar ítems dinámicamente.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 3: Piedra, papel o tijera -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 portfolio-card">
+            <a href="Piedra/index.html" target="_blank" class="img-wrapper">
+              <img src="ppt.png" class="portfolio-img card-img-top" alt="Piedra papel o tijera">
+              <span class="card-overlay-btn"><i class="bi bi-box-arrow-up-right"></i> Ver proyecto</span>
+            </a>
+            <div class="card-body d-flex flex-column">
+              <div class="tech-tags mb-2">
+                <span class="badge-tech">JavaScript</span>
+                <span class="badge-tech">Lógica</span>
+              </div>
+              <h5 class="fw-bold">Piedra, Papel o Tijera</h5>
+              <p class="text-muted card-text small mb-0">Clásico juego interactivo contra la computadora con sistema de puntaje en tiempo real.</p>
+            </div>
+          </div>
+        </div>
+
+   
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="about-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">02 // PERFIL</span>
+        <h2 class="fw-bold">Sobre mí</h2>
+        <div class="custom-hr"></div>
+      </div>
+
+      <div class="row justify-content-center align-items-center g-4 mt-2">
+        <div class="col-12 col-lg-7">
+          <div class="about-card p-4 p-md-5">
+            <h3 class="h4 fw-bold mb-3">De la lógica del código al diseño de grandes estructuras</h3>
+            <p class="text-muted mb-3">
+              Soy <strong>Dante Macchi Bocco</strong>. Me apasiona entender cómo funcionan las cosas desde sus cimientos, resolver problemas complejos y transformar ideas en proyectos concretos.
+            </p>
+            <p class="text-muted mb-0">
+              Actualmente estoy desarrollando mis bases en programación y diseño web, preparándome para comenzar la carrera de <strong>Ingeniería Civil en el ITBA (Instituto Tecnológico de Buenos Aires)</strong>, donde busco unir el rigor analítico con la innovación tecnológica aplicada a la infraestructura.
+            </p>
+          </div>
+        </div>
+
+        
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">03 // CONECTEMOS</span>
+        <h2 class="fw-bold">Contacto</h2>
+        <div class="custom-hr"></div>
+      </div>
+     
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="card contact-card p-4 p-md-5">
+            <p class="text-center text-muted mb-4">
+              ¿Tenés alguna consulta o propuesta? Escribime directamente a través del formulario o a 
+              <a href="mailto:dmacchibocco@gmail.com" class="fw-semibold text-decoration-none link-accent">dmacchibocco@gmail.com</a>.
+            </p>
+
+            <form action="https://formspree.io/f/mgakyngj" method="POST">
+              <div class="mb-3">
+                <label for="nombre" class="form-label fw-semibold">Tu Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="name" required placeholder="Ej. Juan Pérez">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-semibold">Tu Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" required placeholder="nombre@correo.com">
+              </div>
+              <div class="mb-4">
+                <label for="mensaje" class="form-label fw-semibold">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="message" rows="4" required placeholder="Contame en qué te puedo ayudar..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-accent w-100 fw-bold py-2.5">
+                Enviar Mensaje <i class="bi bi-send ms-1"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="custom-footer text-white py-5">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+       
+        <div class="col-12 col-md-6 text-center text-md-start">
+          <p class="fw-bold mb-1">Dante Macchi Bocco</p>
+          <small class="text-secondary">&copy; 2026 · Todos los derechos reservados.</small>
+        </div>
+       
+        <div class="col-12 col-md-6 text-center text-md-end">
+          <a href="https://github.com/" target="_blank" class="footer-icon me-3" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" class="footer-icon me-3" aria-label="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:dmacchibocco@gmail.com" class="footer-icon" title="Enviar correo a dmacchibocco@gmail.com" aria-label="Correo">
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

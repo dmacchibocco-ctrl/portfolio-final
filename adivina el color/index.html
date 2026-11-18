@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Great Color Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="header-content">
+      <span class="subtitle">Desafío Visual</span>
+      <h1>The Great <br><span id="colorDisplay">RGB(255, 255, 255)</span><br> Guessing Game</h1>
+     
+      <!-- Barra de pista RGB oculta por defecto -->
+      <div id="hintContainer" class="hint-container hidden">
+        <div class="rgb-bar">
+          <div id="barR" class="bar-segment red" title="Rojo"></div>
+          <div id="barG" class="bar-segment green" title="Verde"></div>
+          <div id="barB" class="bar-segment blue" title="Azul"></div>
+        </div>
+        <small class="hint-label">Proporción de luz R / G / B</small>
+      </div>
+    </div>
+  </header>
+
+  <nav class="stripe">
+    <div class="stripe-container">
+      <button id="reset" class="btn-control">Nuevos Colores</button>
+     
+      <div class="status-group">
+        <span id="message"></span>
+        <span class="streak-badge">Racha: <strong id="streakDisplay">0</strong> 🔥</span>
+      </div>
+
+      <div class="mode-group">
+        <button id="hintBtn" class="btn-hint" title="Ver proporción de colores">💡 Pista</button>
+        <div class="divider"></div>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
